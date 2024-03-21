@@ -8,6 +8,13 @@ body{
     background-image: url(../img/forest2.jpg);
 }
 
+.főni{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+  background-color: gold;
+}
+
 .nav-item{
   font-size: x-large;
 }
@@ -61,6 +68,7 @@ body {
     flex-direction: row;
     border: 1px solid #000;
     background-color: green;
+    padding-top: 5px;
   }
   
   .card-img {
