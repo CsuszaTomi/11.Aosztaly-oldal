@@ -11,6 +11,9 @@ body{
     align-items: center;
     text-align: center;
 }
+.card{
+    background-color: seagreen;
+}
 .nav-item{
     font-size: x-large;
 }
