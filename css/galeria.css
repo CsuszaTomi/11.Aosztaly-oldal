@@ -38,3 +38,12 @@ body {
     text-decoration: none;
     color: white;
 }
+.gomb{
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+}
+.gomb:hover{
+    color: white;
+    text-decoration: none;
+}
