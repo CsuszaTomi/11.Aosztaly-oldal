@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Főoldal</title>
 </head>
@@ -30,17 +31,57 @@
         </div>
     </nav>
 
-    <div class="container board">
-        <h1>Üzenet tábla</h1>
-        <div id="message-board" class="alert alert-dismissible fade show" role="alert">
-            <textarea id="message-input" placeholder="Írj egy üzenetet..."></textarea>
-            <button id="submit-btn">Küldés</button>
+    <br><br><br><br><br><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="img/index/óra.jpg" data-caption="Elkészült az új óra!" class="lightbox">
+                    <img src="img/index/óra.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Elkészült az új óra!</h2>
+                        <p class="card-text">Sok idő után elkészült az osztálytermünk új digitális órája. Sándor Péter tanárúr segítségével <b>Balázs Botond,Bíró Levente,Fodor Levente,Homolya Nándor, Kuruzc Gergő</b> tanulók hozták létre. Nagyon gratulálunk nekik!</p>
+                        <p class="card-text"><small class="datum">Publikálva: 2024.04.12.</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <a href="img/index/túra_térkép.jpg" data-caption="Bicikli Túra!" class="lightbox">
+                    <img src="img/index/túra_térkép.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Bicikli Túra!</h2>
+                        <p class="card-text">Szombaton délelőtt 9:00-kor egy kis kerékpáros kihívás vár ránk! Indulás a sulitól Ómassára, majd vissza. Tudjátok, felfelé az igazi kihívás, de lefelé aztán igazán pörgős lesz! Ne felejtsetek magatokkal hozni rendes állapotban lévő biciklit és sisakot is! Mindenki, aki úgy érzi, hogy felkészült rá és szeretne csatlakozni, kérlek írjon nekem Facebookon, hogy tudjam, kikre számíthatok!</p>
+                        <p>Gyertek, és élvezzük együtt a friss levegőt és a bringázás örömét! Szülők, barátok is jöhetnek, minél többen, annál vidámabb lesz a társaság! Ne feledjétek, hogy a közös tekerés nemcsak az egészségünkre jó, de közben remek alkalmunk nyílik beszélgetni, nevetni és egymás társaságát élvezni. Így hát, ha van kedvetek egy aktív és szórakoztató délelőttre, ne habozzatok csatlakozni hozzánk!</p>
+                        <p class="card-text"><small class="datum">Publikálva: 2024.04.09.</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <a href="img/index/lézerharc.jpg" data-caption="Bicikli Túra!" class="lightbox">
+                    <img src="img/index/lézerharc.jpg" class="card-img-top" alt="...">
+                </a>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Bicikli Túra!</h2>
+                        <p class="card-text">Kandó hét alkalmávól elmentünk kedden délután lézerharcozni az osztály nagyrészével! Szerintem mindenki nagyon jól szórakozott! Az összetartó csapatmunka és az izgalmas csaták emlékei biztosan sokáig velünk maradnak! Gratulálok harcosok!</p>
+                        <p class="card-text"><small class="datum">Publikálva: 2024.03.26.</small></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
-    <script src="js/uzenotabla.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.lightbox');
+    </script>
 </body>
 </html>

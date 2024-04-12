@@ -31,6 +31,14 @@ body {
     text-decoration: none;
     color: white;
 }
-.board{
+.card{
     background-color: seagreen;
+}
+.container{
+    color: black;
+}
+.datum{
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
 }
