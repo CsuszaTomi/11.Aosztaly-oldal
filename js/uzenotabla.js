@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const messageElement = document.createElement("div");
     messageElement.innerText = message;
 
-    // Hozzáadunk egy törlés gombot minden üzenethez
+    // törlés gombocska
     const deleteButton = document.createElement("button");
     deleteButton.innerText = "Törlés";
     deleteButton.addEventListener("click", function() {
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     localStorage.setItem("messages", JSON.stringify(savedMessages));
   }
 
-  // Üzenet törlése és frissítése a helyi tárolóban
+  // mentés a browserbe
   function deleteMessage(message) {
     const messageIndex = savedMessages.indexOf(message);
     if (messageIndex !== -1) {
