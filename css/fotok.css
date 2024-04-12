@@ -47,3 +47,14 @@ body {
     color: white;
     text-decoration: none;
 }
+.card-text{
+    text-decoration: none;
+    color: white;
+}
+.card-text:hover{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}

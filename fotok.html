@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
     <link rel="stylesheet" href="css/fotok.css">
     <title>Fotók</title>
 </head>
@@ -42,52 +43,64 @@
     </div>
 
     <div class="container mt-5">
-      <div class="row">
-		<div class="col mx-6 p-4 hobbi rounded">
-			<div class="card" style="width: 80%; margin:auto">
-                <img src="img/Galeria/azelsonyolcas.JPG" alt="">
-				<div class="card-body">
-					<p class="card-text h5 fw-bold text-center">Az első nyolcas</p>
-				</div>
-			</div>
-		</div>
-		<div class="col mx-6 p-4 hobbi rounded">
-			<div class="card" style="width: 80%; margin:auto">
-                <img src="img/Galeria/lezerharc.JPG" alt="">
-				<div class="card-body">
-					<p class="card-text h5 fw-bold text-center">A Lézerharc</p>
-				</div>
-			</div>
-		</div>
-        <div class="col mx-6 p-4 hobbi rounded">
-			<div class="card" style="width: 80%; margin:auto">
-                <img src="img/Galeria/7days.JPG" alt="">
-				<div class="card-body">
-					<p class="card-text h5 fw-bold text-center">007 Days</p>
-				</div>
-			</div>
-		</div>
-        <div class="col mx-6 p-4 hobbi rounded">
-			<div class="card" style="width: 80%; margin:auto">
-                <img src="img/Galeria/cs16.jpg" alt="">
-				<div class="card-body">
-					<p class="card-text h5 fw-bold text-center">A hátsó padsor</p>
-				</div>
-			</div>
-		</div>
-        <div class="col mx-6 p-4 hobbi rounded">
-			<div class="card" style="width: 80%; margin:auto">
-                <img src="img/Galeria/avasikilato.JPG" height="600px" alt="">
-				<div class="card-body">
-					<p class="card-text h5 fw-bold text-center">Avasi Kilátó Építés</p>
-				</div>
-			</div>
-		</div>
-      </div>
-  </div>
+        <div class="row">
+            <div class="col mx-6 p-4 hobbi rounded">
+                <a href="img/Galeria/azelsonyolcas.JPG" data-caption="Az első nyolcas" class="lightbox">
+                    <div class="card" style="width: 80%; margin:auto">
+                        <img src="img/Galeria/azelsonyolcas.JPG" alt="">
+                        <div class="card-body">
+                            <p class="card-text h5 fw-bold text-center">Az első nyolcas</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mx-6 p-4 hobbi rounded">
+                <a href="img/Galeria/lezerharc.JPG" data-caption="A Lézerharc" class="lightbox">
+                    <div class="card" style="width: 80%; margin:auto">
+                        <img src="img/Galeria/lezerharc.JPG" alt="">
+                        <div class="card-body">
+                            <p class="card-text h5 fw-bold text-center">A Lézerharc</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mx-6 p-4 hobbi rounded">
+                <a href="img/Galeria/7days.JPG" data-caption="007 Days" class="lightbox">
+                    <div class="card" style="width: 80%; margin:auto">
+                        <img src="img/Galeria/7days.JPG" alt="">
+                        <div class="card-body">
+                            <p class="card-text h5 fw-bold text-center">007 Days</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mx-6 p-4 hobbi rounded">
+                <a href="img/Galeria/cs16.jpg" data-caption="A hátsó padsor" class="lightbox">
+                    <div class="card" style="width: 80%; margin:auto">
+                        <img src="img/Galeria/cs16.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text h5 fw-bold text-center">A hátsó padsor</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mx-6 p-4 hobbi rounded">
+                <a href="img/Galeria/avasikilato.JPG" data-caption="Avasi Kilátó Építés" class="lightbox">
+                    <div class="card" style="width: 80%; margin:auto">
+                        <img src="img/Galeria/avasikilato.JPG" height="600px" alt="">
+                        <div class="card-body">
+                            <p class="card-text h5 fw-bold text-center">Avasi Kilátó Építés</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html> 
