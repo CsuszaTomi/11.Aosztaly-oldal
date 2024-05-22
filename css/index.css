@@ -61,3 +61,6 @@ button{
     font-weight: bold;
     border-radius: 5px;
 }
+.table-bordered th, .table-bordered td {
+    border: 2px solid black;
+}
