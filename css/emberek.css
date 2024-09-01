@@ -114,3 +114,14 @@ body {
   .next {
     right: 0;
   }
+
+  .gomb{
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+}
+.gomb:hover{
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+}
