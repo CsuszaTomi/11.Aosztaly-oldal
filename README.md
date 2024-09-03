@@ -1,1 +1,1 @@
-https://csuszatomi.github.io/9.Aosztaly-oldal/
+https://csuszatomi.github.io/10.Aosztaly-oldal/
