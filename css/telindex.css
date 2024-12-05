@@ -1,0 +1,66 @@
+body{
+    overflow-x: hidden;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-image: url(../img/téliháttér.jpg);
+}
+.nav-item{
+    font-size: x-large;
+}
+.navbar-brand{
+    font-size: x-large;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: rgb(36, 105, 145);
+    text-decoration: none;
+    color: white;
+}
+.navbar:hover{
+    text-decoration: none;
+    color: white;
+}
+.card{
+    background-color: rgb(36, 105, 145);
+}
+.container{
+    color: black;
+}
+.datum{
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.hirek{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 400%;
+}
+thead{
+    font-weight: bold;
+}
+th, td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+button{
+    background-color: rgb(36, 105, 145);
+    border-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.table-bordered th, .table-bordered td {
+    border: 2px solid black;
+}
