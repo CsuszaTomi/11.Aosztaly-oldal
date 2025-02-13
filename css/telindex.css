@@ -64,3 +64,12 @@ button{
 .table-bordered th, .table-bordered td {
     border: 2px solid black;
 }
+
+.linkek {
+    text-decoration: none;
+    color: black;
+}
+.linkek:hover {
+    color: white;
+    font-size: 120%;
+}
