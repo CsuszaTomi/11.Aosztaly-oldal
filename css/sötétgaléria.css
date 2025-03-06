@@ -1,0 +1,57 @@
+body{
+    overflow-x: hidden;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/sötétháttér.jpg);
+}
+.kozep{
+    align-items: center;
+    text-align: center;
+}
+.card{
+    background-color: rgb(61, 61, 61);
+}
+.nav-item{
+    font-size: x-large;
+}
+.kiemeles{
+    color: rgb(66, 66, 66);
+    font-size: x-large;
+    text-decoration: none;
+}
+.kiemeles:hover{
+    color: rgb(66, 66, 66);
+    font-size: x-large;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: rgb(28, 29, 29);
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+.navbar:hover{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+.gomb{
+    background-color: rgb(61, 61, 61);
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    font-weight: bold;
+}
+.gomb:hover{
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+    transform: scale(1.1);
+}

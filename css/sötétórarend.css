@@ -1,0 +1,81 @@
+body{
+    overflow-x: hidden;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    background-image: url(../img/sötétháttér.jpg);
+}
+.nav-item{
+    font-size: x-large;
+}
+.kiemeles{
+    color: rgb(66, 66, 66);
+    font-size: x-large;
+    text-decoration: none;
+}
+.kiemeles:hover{
+    color: rgb(66, 66, 66);
+    font-size: x-large;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: rgb(28, 29, 29);
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+.navbar:hover{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+}
+.card{
+    background-color: rgb(61, 61, 61);
+}
+.container{
+    color: black;
+}
+.datum{
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.hirek{
+    color: rgb(151, 151, 151);
+    text-align: center;
+    font-weight: bold;
+    font-size: 400%;
+}
+thead{
+    font-weight: bold;
+}
+th, td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+button{
+    background-color: rgb(110, 110, 110);
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.table-bordered th, .table-bordered td {
+    border: 2px solid black;
+}
+
+.linkek {
+    text-decoration: none;
+    color: black;
+}
+.linkek:hover {
+    color: rgb(66, 66, 66);
+    font-size: 120%;
+}
