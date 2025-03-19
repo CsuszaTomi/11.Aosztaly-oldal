@@ -1,0 +1,61 @@
+body{
+    overflow-x: hidden;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-image: url(../img/tavaszhatter.jpg);
+}
+.kozep{
+    align-items: center;
+    text-align: center;
+}
+.card{
+    background-color: #B5E48C;
+}
+.nav-item{
+    font-size: x-large;
+}
+.navbar-brand{
+    font-size: x-large;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: #76a153;
+    text-decoration: none;
+    color: white;
+}
+.navbar:hover{
+    text-decoration: none;
+    color: white;
+}
+.kiemeles{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.gomb{
+    background-color: #FFB3C6;
+    color: white;
+    text-decoration: none;
+}
+.gomb:hover{
+    color: white;
+    text-decoration: none;
+}
+.card-text{
+    text-decoration: none;
+    color: #2C5F2D;
+}
+a:hover{
+    text-decoration: none;
+}
