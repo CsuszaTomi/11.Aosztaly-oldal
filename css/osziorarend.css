@@ -1,0 +1,71 @@
+body{
+    overflow-x: hidden;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-image: url(../img/oszikep.png);
+}
+.nav-item{
+    font-size: x-large;
+}
+.navbar-brand{
+    font-size: x-large;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: #b67d34;
+    text-decoration: none;
+    color: white;
+}
+.navbar:hover{
+    text-decoration: none;
+    color: white;
+}
+.card{
+    background-color: #c09918;
+}
+.container{
+    color: black;
+}
+thead {
+    background-color: #e68130; 
+    color: white;
+}
+
+tbody {
+    background-color: rgb(214, 62, 24); 
+    color: white;
+}
+th, td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+.table-bordered th, .table-bordered td {
+    border: 1px solid white;
+}
+.fele {
+    width: 50%;
+    
+    box-sizing: border-box;
+}
+.border-right {
+    border-right: 1px solid white; 
+}
+.container {
+    max-width: 1800px;
+}
+.kiemeles{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}

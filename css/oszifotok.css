@@ -1,0 +1,61 @@
+body{
+    overflow-x: hidden;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-image: url(../img/oszikep.png);
+}
+.kozep{
+    align-items: center;
+    text-align: center;
+}
+.card{
+    background-color: #c09918;
+}
+.nav-item{
+    font-size: x-large;
+}
+.navbar-brand{
+    font-size: x-large;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: #b67d34;
+    text-decoration: none;
+    color: white;
+}
+.navbar:hover{
+    text-decoration: none;
+    color: white;
+}
+.kiemeles{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.gomb{
+    background-color: #dd0c0c;
+    color: white;
+    text-decoration: none;
+}
+.gomb:hover{
+    color: white;
+    text-decoration: none;
+}
+.card-text{
+    text-decoration: none;
+    color: #8ff50b;
+}
+a:hover{
+    text-decoration: none;
+}
